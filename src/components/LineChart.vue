@@ -1,6 +1,8 @@
 <template>
   <div>
-    <canvas id="line-chart"></canvas>
+    <div class="h-96">
+      <canvas id="line-chart"></canvas>
+    </div>
   </div>
 </template>
 
@@ -53,6 +55,7 @@ export default {
         ],
       },
       options: {
+        maintainAspectRatio: false,
         plugins: {
           legend: {
             display: false,
@@ -63,8 +66,10 @@ export default {
             grid: {
               display: false,
             },
+            offset: true,
           },
           y: {
+            beginAtZero: true,
             ticks: {
               callback: function (value) {
                 const valueLegend = this.getLabelForValue(value);

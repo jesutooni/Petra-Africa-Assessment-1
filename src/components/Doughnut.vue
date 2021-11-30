@@ -1,6 +1,8 @@
 <template>
   <div>
-    <canvas id="doughnut"></canvas>
+    <div class="w-72">
+      <canvas id="doughnut"></canvas>
+    </div>
   </div>
 </template>
 

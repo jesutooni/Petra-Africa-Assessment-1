@@ -11,12 +11,14 @@
           class="w-48 h-12 px-4 flex items-center justify-between border border-primary-red rounded-md text-primary-red font-GT"
         >
           <h1 class="font-medium">Petra Africa</h1>
-          <div class="w-4 h-4 bg-primary-red rounded-full">
+          <div
+            class="w-4 h-4 bg-primary-red rounded-full flex items-center justify-center"
+          >
             <span
               class="iconify"
               data-icon="clarity:caret-line"
               style="color: white"
-              data-width="1"
+              data-width="10"
               data-rotate="180deg"
             ></span>
           </div>
@@ -57,7 +59,7 @@
 
     <main class="max-w-6xl mx-auto">
       <section>
-        <div class="mt-16 font-GT flex items-center justify-between">
+        <div class="mt-16 mb-24 font-GT flex items-center justify-between">
           <div>
             <h1 class="text-xl">Today's trends</h1>
             <p class="text-primary-gray-light text-xs">
@@ -108,7 +110,7 @@
       </section>
 
       <section class="py-12">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between mb-7">
           <h1 class="font-dm-sans font-bold text-xl">Account Expenses</h1>
           <div
             class="border border-primary-gray-border w-24 h-10 flex items-center justify-center gap-1 cursor-pointer"

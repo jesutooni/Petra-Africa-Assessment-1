@@ -23,16 +23,17 @@ export const DoughnutData = {
           "rgba(255, 143, 120, 1)",
           "rgba(159, 0, 173, 1)",
         ],
-        radius: 286,
+
         rotation: -90,
-        cutout: 180,
+        cutout: 60,
       },
     ],
   },
   options: {
-    legend: {
-      display: !true,
-      position: "right",
+    plugins: {
+      legend: {
+        display: false,
+      },
     },
   },
 };
