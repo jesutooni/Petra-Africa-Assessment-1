@@ -1,6 +1,6 @@
 <template>
   <div class="pt-16">
-    <header class="max-w-6xl mx-auto">
+    <header class="max-w-6xl mx-auto px-6 xl:px-0">
       <div class="flex">
         <div
           class="flex justify-center items-center bg-primary-red h-12 w-12 rounded-md mr-3"
@@ -27,7 +27,7 @@
     </header>
 
     <nav
-      class="mt-1.5 max-w-6xl mx-auto font-GT text-primary-gray-dark flex items-center justify-between"
+      class="mt-1.5 px-6 xl:px-0 max-w-6xl mx-auto font-GT text-primary-gray-dark hidden md:flex items-center justify-between"
     >
       <ul class="flex gap-7">
         <li
@@ -57,7 +57,7 @@
     </nav>
     <hr />
 
-    <main class="max-w-6xl mx-auto">
+    <main class="max-w-6xl mx-auto px-6 xl:px-0">
       <section>
         <div class="mt-16 mb-24 font-GT flex items-center justify-between">
           <div>
@@ -126,12 +126,12 @@
             ></span>
           </div>
         </div>
-        <div class="flex gap-20">
+        <div class="md:flex gap-20">
           <div class="">
             <Doughnut />
           </div>
-          <div class="flex flex-wrap gap-16">
-            <div class="flex items-center">
+          <div class="md:flex flex-wrap gap-16">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-blue rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">Rent & Lease</h1>
@@ -146,7 +146,7 @@
               </div>
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-green rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">Maintenance</h1>
@@ -161,7 +161,7 @@
               </div>
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-red rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">Shopping</h1>
@@ -176,7 +176,7 @@
               </div>
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-brown rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">General</h1>
@@ -191,7 +191,7 @@
               </div>
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-gray rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">Administrative</h1>
@@ -206,7 +206,7 @@
               </div>
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-lilac rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">Transport</h1>
@@ -221,7 +221,7 @@
               </div>
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center mb-6 md:mb-0">
               <div class="w-2 h-2 bg-pie-purple rounded full"></div>
               <div class="font-dm-sans ml-3">
                 <h1 class="text-sm text-primary-gray-mid">Others</h1>
