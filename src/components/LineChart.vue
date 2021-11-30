@@ -8,13 +8,8 @@
 
 <script>
 import Chart from "chart.js/auto";
-// import LineChartData from "../LineChartData";
+
 export default {
-  data() {
-    return {
-      // LineChartData,
-    };
-  },
   mounted() {
     const ctx = document.getElementById("line-chart").getContext("2d");
     const gradientBg = ctx.createLinearGradient(0, 0, 2304, 0);
